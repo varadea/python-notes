@@ -1,0 +1,121 @@
+-as tester we are never going to  design a table(structure)
+
+the table struucture thats normalised/denormalised table structure is
+designed data architectures/designer experinced persons  
+
+-------------------------------------------------------------
+denormalised                                  normalised
+
+for fetching data denormalised       but  its difficult to fetch 
+data tables is easy                  data  from normalised data as 
+                                     there are many table so it is
+                                     compplx
+ 
+occupies large storage space         occupies small storage space 
+
+performance is bad when data         performance is good when data 
+is in denormalised form              is in normalised form
+-------------------------------------------------
+
+
+denormaised data - is suitable for analytical purpose
+
+-----------------------------------------
+database design is done by person having that much knowledge or
+experince perticularly database engineer/designer
+
+
+------------------------------------
+what is partial n Transitive dependency?
+--------------
+study only 1 2 3 NF 
+
+Sir i have never done the normalisation but i am aware about the
+different forms of normalazation process 
+
+database design (normalisation/denormalisation) done by architacture
+
+------------------------------
+which data form is suitable for the OLAP-analytical process and
+which data form is suitable for the OLTP-transactional process?
+
+-------------------------------------
+ fully dapendant data - we cannot seperate the this data as it is 
+logilly not correct, like OUR id n name columns ,so when some data
+is dependant on othr  data is  can said fully DD
+
+and partially dependant dat - is also dependant but its not completly
+dependant so the PD data (col) is seperable from the table
+
+------------------------
+whos responsible for the doing normalisation database design?
+-> Architecture
+
+ ----------------------------------
+1.conceptual n logical models are developed by  architecture 
+2.on basis of logical model - physical model developed by devolper
+3.After that this physical model - tested by the tester acco to mapping document 
+
+------------------------------------------
+
+1 server --> 1 Database --> 1 Schema --> 1 table
+
+means in one server  like SSMS/Oracle multiple datbases,schemas,
+tables exists but in one server(ssms) - only one db, schemas,
+tables exists mean there cannot be tables db shemas of same name 
+
+unique db,schema,tables exists -in server
+------------------------
+
+1.IN single databse server - can sreate multiple databases
+  but cannot create databases of same name - throuh error
+  multiple Databases be created on same server with - diff names
+
+2.in one Database - only one type schema exist 
+
+-----------------------------------------
+1.database name
+2.table name
+3.column name 
+4.data type 
+5.data length
+6.constraints
+
+Testing ->
+check (db design) maching with - mapping document or not
+Pass
+data type is not matching with logical model
+
+-----------------------------------
+1.Relational data model - random relation bw tables (OLTP)
+2.Dimentional data model - proper relation bw tables (OLAP)
+   logical arrangement of data - looks like Cube
+
+  data arrengement in  graph on x & y axis ->  where one axis has = facts(changing),
+  one axis = Dimensions(stable) mostly dimensions doesnt change frequently 
+  compared to facts which are always changing
+
+Graph: X axis = facts  Y axis = Dimensions
+       X axis =  Dimensions  Y axis = facts
+--------------------------------
+1.fact - measurable and counted events
+2.dimention - refertional information about our facts
+
+Dimentional data model - only 2 types table fact/dimension tables
+
+
+some numbers are- countable & some non-countable
+   Quantity: 5+5=10 <-- facts (countable)
+   but some no like mob no,addhar no also 
+   have numbera but this numbers are not countable - not facts
+
+----------------------------
+#peimary keys are persent in dimention tables and its foeign keys are present in fact table.
+*set of foreign keys in fact table = known dimension key
+
+----------------------------------
+#create physical & logical model?
+
+-----------------------
+in 'Customer' table 'Title' column data lenght is 'nvarchar(8)'
+in 'Customer' table 'Title' column data lenght should be 'nvarchar(9)''
