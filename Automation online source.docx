@@ -1,0 +1,49 @@
+# What is a vendor management system?
+A VMS, or Vendor Management System, is a cloud-based software platform that solves a common problem for many global enterprises - how to find, engage, and manage its external workforce - both contract or contingent labour and services providers. 
+A vendor management system is a Web-based application that acts as a mechanism for business to manage and procure staffing services – temporary, and, in some cases, permanent placement services – as well as outside contract or contingent labour.
+
+
+# What Does VM Sprawl Mean?
+Virtual machine (VM) sprawl or virtualization sprawl is the phenomenon which occurs when the number of virtual machines connected to the network exceeds the network's capabilities.
+Virtualization sprawl is a phenomenon that occurs when the number of virtual machines (VMs) on a network reaches a point where administrators can no longer manage them effectively. Virtualization sprawl is also referred to as virtual machine sprawl, VM sprawl or virtual server sprawl.
+To prevent VM sprawl, a proper virtual machine life cycle management (VMLM) has to be implemented, with tools that allow administrators to oversee the implementation, operation, delivery and maintenance of all virtual machines during their entire existence. In such a way, all VM creation are monitored so accountability can be set, and then each created VM can be decommissioned once their purpose has been served.
+
+
+# What is Infrastructure Automation?
+Infrastructure automation is the process of reducing human interaction with IT systems by creating scripts or functions that are repeatable and can be used either by other software or on command.
+IT infrastructure automation tools can control IT elements including servers, storage, network elements, and operating systems (OS), with the goal of improving efficiency of IT operations and staff, with the goal of hands-off operation in most environments including both cloud and on-premises elements of hybrid IT environments.
+Cloud infrastructure automation tools greatly improve efficiency and speed of workload deployments and can help reduce costs by terminating unused virtual machines (VMs) and reclaim unneeded storage.
+
+# Why Is Infrastructure Automation Important?
+Automation is a key component of IT orchestration, of driving IT efficiency, and of enabling an organization’s digital transformation. As IT organizations grow in complexity and size there are a limited number of resources to focus on infrastructure administration. Updates, OS patches, and the ordering, provisioning, configurating, and deploying of systems can present an unmanageable burden for IT were it not for a solid infrastructure automation framework.
+Every organization wants efficient, scalable, and reliable IT infrastructure. Automation tools increase agility, enhance employee productivity, and reduce security attack surfaces by eliminating manual errors though standardization of process and governance policies.
+Infrastructure automation mostly benefits those tasks that are self-contained, well documented, and tedious to perform manually, for example:
+•	Provisioning. Infrastructure automation can reduce provisioning time for new VMs, storage, and networking from weeks or months to minutes or hours. This is especially valuable in today’s multi-cloud hybrid IT environments where automation and orchestration work hand in hand to ensure smooth deployment and operation regardless of a workload’s placement.
+•	Cost Reduction. Server and VM sprawl can obfuscate the real costs of a given IT environment. Automation can highlight all cost components of virtual and physical IT infrastructure, enabling department chargebacks and pinpointing anomalies that could mean runaway or forgotten workloads. Without adequate cost containment, management and line of business users often view IT as a liability or cost center, rather than asset or profit center.
+•	Capacity Planning. Both under-and over-provisioning impact performance organization-wide. Waste can occur due to a lack of standards in deployment or workloads. Infrastructure automation eliminates inconsistencies, thus reducing complexity and increasing standardization across the organization. This can help identify those areas where incorrect provisioning is impacting resource allocation and workload deployment, such as systems with more memory or CPU power than needed for a given workload or workloads.
+•	VM Sprawl. The simplicity of spinning up new workloads or storage, whether in public or private clouds often leads to VM sprawl, the virtual cousin of server sprawl of years past. Cloud infrastructure automation tools help prevent VM sprawl by identifying workloads that are no longer used, automatically decommissioning those workloads and storage resources. This can help prevent public cloud sticker shock and improve on-premises IT utilization to save significant amounts of money in both capital and operating expenses.
+
+# How Does Infrastructure Automation Work?
+An infrastructure automation framework delivers predictability and repeatability to those processes used for managing IT workload configuration across the organization. This in turn helps IT meet their service level agreements (SLAs) by reducing complexity and freeing up valuable IT resources to focus on business value rather than low level infrastructure management. These factors contribute to increased uptime and consistency while accelerating the deployment of new and changed workloads.
+As organizations and infrastructure grow, automation helps teams that are struggling to manage often explosive growth to manage a complex environment with existing staff. Infrastructure automation streamlines ongoing operations such as network management, install/move/add/change (IMAC) of workloads, user access management, storage and data administration, deploying application workloads, troubleshooting, and debugging.
+Infrastructure automation offers self-service, multi-cloud provisioning with consistency across clouds. By centralizing policies through templates, automation delivers infrastructure as code (IaC) enabling developers to create VMware templates using JSON/YAML and Git repositories. 
+
+
+# What IT Infrastructure Processes Can Be Automated?
+•	Self-Service Cloud: Evolve your VMware data center into a private or hybrid cloud infrastructure based on VMware Cloud Foundation and VMware Cloud on AWS.
+•	Kubernetes Automation: Automate Kubernetes cluster and namespace management and support vSphere with Kubernetes.
+•	Multi-Cloud Automation: Extend self-service automation to multiple public clouds, including Amazon Web Services, Microsoft Azure and Google Cloud Platform.
+•	Network Automation: Automate VMware NSX to enable faster deployment and complete lifecycle automation of traditional and modern applications with networking and security services.
+•	DevOps for Infrastructure: Enable powerful Infrastructure as Code (IaC) platform with support for infrastructure pipelining and iterative development.
+
+
+# What are benefits of Infrastructure Automation?
+Infrastructure automation offers many benefits including:
+•	Cost reductions from eliminating manual processes. Organizations will save labour costs without reducing quality of IT operations.
+•	Improved efficiency and accuracy of workflow deployment based on a central policy repository.
+•	Increased agility and visibility into business processes even as the organization scales to meet growth Faster time to value for software updates and new releases.
+•	Consistent and dynamic adjustment to infrastructure changes while maintaining consistent automation and service delivery. Consistent security policy, control, and compliance across your multi-cloud environment.
+•	Future-proof infrastructure by managing traditional and cloud-native workloads across private, hybrid and multi-cloud environments.
+
+There are two types of testing – manual and automation.
+
